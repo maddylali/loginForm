@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+body{ background: hsla(31,15%,50%,.1) }
+.form-control.ng-touched.ng-invalid{
+    border: 1px solid red
+}
+.login-screen{
+    background: hsla(31,15%,50%,.1);
+    padding: 2em;
+    border: 1px dashed #ccc;
+}
+.flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.brand-text{font-size: 64px;line-height:1.3em}
+.brand-caption{font-size: 31px}
+.brand{font-size: 45px}
